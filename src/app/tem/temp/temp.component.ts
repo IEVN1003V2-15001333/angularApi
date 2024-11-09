@@ -11,5 +11,9 @@ import { TemhComponent } from "../temh/temh.component";
 })
 export class TempComponent {
   title="Saludo desde el componente padre"
+  mensaje2:string=""
+  recibirMensaje(mensaje:string){
+    this.mensaje2=mensaje
+  }
 
 }
