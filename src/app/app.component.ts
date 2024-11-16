@@ -13,5 +13,5 @@ import { ListMessageComponent } from "./tem/list-message/list-message.component"
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  title = 'angularApi'; //
+  title = 'angularApi';
 }

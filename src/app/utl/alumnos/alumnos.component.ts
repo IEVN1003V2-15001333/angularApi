@@ -6,7 +6,9 @@ import { AlumnosUtl } from '../utl';
 import { ProyectoapiService } from '../proyectoapi.service';
 import { RouterLink } from '@angular/router';
  
-
+ 
+ 
+ 
 @Component({
   selector: 'app-alumnos',
   standalone: true,
@@ -17,7 +19,6 @@ import { RouterLink } from '@angular/router';
 })
 export default class AlumnosComponent implements OnInit {
  
-  
  
   imageWidth:number=50;
   imageMargin:number=2;
@@ -32,30 +33,30 @@ export default class AlumnosComponent implements OnInit {
   }
  
   alumnosIric:AlumnosUtl[]=[
-    // {
-    //   matricula:1234,
-    //   nombre:'pedro',
-    //   apaterno:'lopez',
-    //   amaterno:'muñoz',
-    //   correo: 'pedro@gmail.com',
+    {
+      matricula:1234,
+      nombre:'pedro',
+      apaterno:'lopez',
+      amaterno:'muñoz',
+      correo: 'pedro@gmail.com',
  
-    // },
-    // {
-    //   matricula:772,
-    //   nombre:'Paulina',
-    //   apaterno:'lopez',
-    //   amaterno:'muñoz',
-    //   correo: 'paulina@gmail.com',
-    // },
+    },
+    {
+      matricula:772,
+      nombre:'Paulina',
+      apaterno:'lopez',
+      amaterno:'muñoz',
+      correo: 'paulina@gmail.com',
+    },
  
-    // {
-    //   matricula:22,
-    //   nombre:'Dario',
-    //   apaterno:'lopez',
-    //   amaterno:'muñoz',
-    //   correo: 'dario@gmail.com',
+    {
+      matricula:22,
+      nombre:'Dario',
+      apaterno:'lopez',
+      amaterno:'muñoz',
+      correo: 'dario@gmail.com',
  
-    // },
+    },
   ]
  
   onCalificaClick(message:string){

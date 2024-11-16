@@ -3,7 +3,6 @@ import { MessageserviceService } from '../messageservice.service';
 import { FormsModule } from '@angular/forms';
 import { CommonModule } from '@angular/common';
 
-
 @Component({
   selector: 'app-list-message',
   standalone: true,
